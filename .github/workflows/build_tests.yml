@@ -37,4 +37,4 @@ jobs:
       - name: Install skill
         run: |
           pip install .
-      - uses: pypa/gh-action-pip-audit@v1.0.0
+      - uses: pypa/gh-action-pip-audit@v1.1.0

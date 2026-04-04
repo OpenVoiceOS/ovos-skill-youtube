@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.1.4a2](https://github.com/OpenVoiceOS/ovos-skill-youtube/tree/0.1.4a2) (2026-04-04)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-youtube/compare/0.1.4a1...0.1.4a2)
+
+**Merged pull requests:**
+
+- ci: modernize GitHub workflows [\#44](https://github.com/OpenVoiceOS/ovos-skill-youtube/pull/44) ([JarbasAl](https://github.com/JarbasAl))
+- fix\(i18n\): normalize locale folders to canonical BCP-47 [\#43](https://github.com/OpenVoiceOS/ovos-skill-youtube/pull/43) ([JarbasAl](https://github.com/JarbasAl))
+- Update actions/checkout action to v6 [\#39](https://github.com/OpenVoiceOS/ovos-skill-youtube/pull/39) ([renovate[bot]](https://github.com/apps/renovate))
+- Update pypa/gh-action-pip-audit action to v1.1.0 [\#38](https://github.com/OpenVoiceOS/ovos-skill-youtube/pull/38) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dependency python to 3.14 [\#35](https://github.com/OpenVoiceOS/ovos-skill-youtube/pull/35) ([renovate[bot]](https://github.com/apps/renovate))
+- Configure Renovate [\#34](https://github.com/OpenVoiceOS/ovos-skill-youtube/pull/34) ([renovate[bot]](https://github.com/apps/renovate))
+- Update french youtube\_skill.voc [\#33](https://github.com/OpenVoiceOS/ovos-skill-youtube/pull/33) ([Zachmd14](https://github.com/Zachmd14))
+
 ## [0.1.4a1](https://github.com/OpenVoiceOS/ovos-skill-youtube/tree/0.1.4a1) (2025-01-25)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-youtube/compare/0.1.3...0.1.4a1)

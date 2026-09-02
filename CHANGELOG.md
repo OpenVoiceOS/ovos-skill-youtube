@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.4a3](https://github.com/OpenVoiceOS/ovos-skill-youtube/tree/0.1.4a3) (2026-09-02)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-youtube/compare/0.1.4a2...0.1.4a3)
+
+**Merged pull requests:**
+
+- docs: deprecation notice — superseded by MediaProvider plugins [\#46](https://github.com/OpenVoiceOS/ovos-skill-youtube/pull/46) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.1.4a2](https://github.com/OpenVoiceOS/ovos-skill-youtube/tree/0.1.4a2) (2026-04-04)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-youtube/compare/0.1.4a1...0.1.4a2)

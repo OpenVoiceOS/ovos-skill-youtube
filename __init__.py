@@ -1,6 +1,7 @@
 from os.path import join, dirname
 
 from ovos_utils import classproperty
+from ovos_utils.log import log_deprecation
 from ovos_utils.ocp import MediaType, PlaybackType, Playlist, MediaEntry
 from ovos_utils.parse import fuzzy_match, MatchStrategy
 from ovos_utils.process_utils import RuntimeRequirements
@@ -9,9 +10,16 @@ from ovos_workshop.skills.common_play import OVOSCommonPlaybackSkill
 from tutubo import YoutubeSearch
 from tutubo.models import Video, VideoPreview, Channel, ChannelPreview
 
+from version import VERSION_MAJOR
+
 
 class SimpleYoutubeSkill(OVOSCommonPlaybackSkill):
     def __init__(self, *args, **kwargs):
+        log_deprecation("ovos-skill-youtube is deprecated and will be replaced "
+                         "by ovos-media-provider-youtube once the OCP pipeline's "
+                         "MediaProvider dispatch becomes the default search path "
+                         "— install that MediaProvider plugin instead",
+                         deprecation_version=f"{VERSION_MAJOR + 1}.0.0")
         super().__init__(supported_media=[MediaType.GENERIC, MediaType.VIDEO],
                          skill_icon=join(dirname(__file__), "res", "ytube.jpg"),
                          skill_voc_filename="youtube_skill",
